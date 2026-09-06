@@ -1,12 +1,10 @@
 #include "PlayerMovementComponent.h"
 
-virtual void PostInitializeComponents() override;  
-{
+
 
 	APlayerMovementCharacter::APlayerMovementCharacter()
 {
 	PrimaryActorTick.bCanEverTick = true;
-}
 }
 
 void APlayerMovementCharacter::Tick(float DeltaTime)
